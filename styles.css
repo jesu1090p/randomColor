@@ -1,0 +1,61 @@
+body {
+	background-color: #ccc;
+	font-family: 'Bogle';
+}
+
+.container {
+	width: 100vw;
+  height: 100vh;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+p {
+	font-family: 'Bogle';
+	font-size: 2rem;
+	text-align: center;
+
+}
+code {
+	font-family: 'Bogle';
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+#heading,#p {
+	background-color: #fff;
+	border-radius: 15px;
+	margin-bottom: 1.5rem;
+	padding: 0.3rem 0.5rem;
+}
+
+button{
+	font-family: bogle;
+	text-transform: capitalize;
+	font-size: 1.8rem;
+    padding: 1rem;
+    width: 15rem;
+    text-align: center;
+    border: 0.1rem solid #aaa;
+    border-radius: 0.5rem;
+    background-color: #fff;
+		cursor: pointer
+}
+
+#made {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+@font-face {
+	font-family: 'Bogle';
+	src: url("C:/Users/joviedo4/Control Panel/Appearance and Personalization/Fonts");
+}
